@@ -1,36 +1,35 @@
-# DeepFake Detection System — Architecture Documentation
+## DeepFake Detection System
 
-> Production-ready deepfake detection pipeline focused on **speed, scalability, multimodal learning, and forensic-level media verification**.
+> Production-ready deepfake detection pipeline focused on speed, scalability, multimodal learning, and forensic-level media verification.
 
 ---
 
-# 1. Overview
+### Overview
 
-This project is a **high-performance deepfake detection system** designed for:
+This project is a high-performance deepfake detection system designed for:
 
-* **Media verification platforms**
-* **FinTech KYC systems**
-* **Cybersecurity teams**
-* **Law enforcement agencies**
-* **E-commerce fraud prevention**
-* **Enterprise content moderation**
+- Media Verification Platforms
+- FinTech KYC Systems
+- Cybersecurity Teams
+- Law Enforcement Agencies
+- Enterprise Content Moderation
 
 The architecture combines:
 
-* **CLIP-based multimodal embeddings**
-* **CNN forensic analysis**
-* **Fusion learning**
-* **Parameter-efficient tuning**
-* **Low-latency inference pipelines**
+- CLIP-based multimodal embeddings
+- CNN forensic analysis
+- Fusion learning
+- Parameter-efficient tuning
+- Low-latency inference pipelines
 
-to build a scalable and production-ready AI verification system.
+to build a scalable AI verification system.
 
 ---
 
-# 2. High-Level Architecture
+### High-Level Architecture
 
 ```bash
-User Upload → Preprocessing → Feature Extraction → Fusion Layer → Classifier → Explainability → API → Dashboard
+User Upload → Preprocessing → Feature Extraction → Fusion Layer → Classification → Explainability → API
 ```
 
 ## Core Components
